@@ -13,7 +13,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- start plugins -->
 <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/my.js"></script>
+	<script   type="text/javascript" src="js/data.js"></script>
 	<script   type="text/javascript" src="js/changeWeb.js"></script>
+	<script   type="text/javascript" src="js/changeWeb2.js"></script>
+	<script   type="text/javascript" src="js/changeWeb3.js"></script>
 	<script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 	<script src="bootstrap-3.3.7-dist/js/jquery-3.2.1.js"></script>
 <link href='http://fonts.useso.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
@@ -42,13 +45,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                         </div>
                         <div class="desc1 span_3_of_2 infobox" id="abstract">
-                        	<p class="movie_option"><strong>片名: </strong>战狼</p>
-							<p class="movie_option"><strong>导演: </strong>2014</p>
-							<p class="movie_option"><strong>演员: </strong>吴京</p>
-                        	<p class="movie_option"><strong>年份: </strong>2017</p>
-							<p class="movie_option"><strong>语言: </strong>汉语普通话 / 英语</p>
-                        	<p class="movie_option"><strong>地区: </strong>中国大陆</p>
-                            <p class="movie_option"><strong>类型: </strong>动作</p>
+                        	<p class="movie_option"><strong>片名: </strong><span>战狼</span></p>
+							<br>
+							<p class="movie_option"><strong>导演: </strong><span>2014</span></p>
+							<br>
+							<p class="movie_option"><strong>演员: </strong><span>吴京</span></p>
+							<br>
+							<p class="movie_option"><strong>年份: </strong><span>2017</span></p>
+							<br>
+							<p class="movie_option"><strong>地区: </strong><span>中国大陆</span></p>
+							<br>
+							<p class="movie_option"><strong>类型: </strong><span>动作</span></p>
                          </div>
                         <div class="clearfix"> </div>
                         <p class="m_4" id = "storyAbstract"> 故事发生在非洲附近的大海上，主人公冷锋（吴京 饰）遭遇人生滑铁卢，被“开除军籍”，本想漂泊一生的他，正当他打算这么做的时候，一场突如其来的意外打破了他的计划，突然被卷入了一场非洲国家叛乱，本可以安全撤离，却因无法忘记曾经为军人的使命，孤身犯险冲回沦陷区，带领身陷屠杀中的同胞和难民，展开生死逃亡。随着斗争的持续，体内的狼性逐渐复苏，最终孤身闯入战乱区域，为同胞而战斗。</p>
@@ -71,7 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                       <div class="col-md-3">
                       	<div class="movie_img"><div class="grid_2" onclick="fresh();" id="pic1">
 							<img src="images/pic6.jpg" class="img-responsive" alt="" >
-							<div class="caption1">
+							<div class="caption1" id="pic1Title">
 									<ul class="list_5 list_7">
 										<li><i class = "icon5"></i><p>3,548</p></li>
 							    	</ul>
@@ -80,24 +87,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						    </div>
 						   </div>
-                      	  <div class="grid_2 col_1">
+                      	  <div class="grid_2 col_1" onclick="fresh2();" id="pic2">
 							<img src="images/pic2.jpg" class="img-responsive" alt="">
-							<div class="caption1">
+							<div class="caption1" id="pic2Title">
 								<ul class="list_3 list_7">
 						    		<li><i class="icon5"> </i><p>3,548</p></li>
 						    	</ul>
 						    	<i class="icon4 icon7"> </i>
-						    	<p class="m_3">Guardians of the Galaxy</p>
+						    	<p class="m_3">美国队长</p>
 							</div>
 						   </div>
-						    <div class="grid_2 col_1">
+						    <div class="grid_2 col_1" onclick="fresh3();" id="pic3">
 							<img src="images/pic9.jpg" class="img-responsive" alt="">
-							<div class="caption1">
+							<div class="caption1" id="pic3Title">
 								<ul class="list_3 list_7">
 						    		<li><i class="icon5"> </i><p>3,548</p></li>
 						    	</ul>
 						    	<i class="icon4 icon7"> </i>
-						    	<p class="m_3">Guardians of the Galaxy</p>
+						    	<p class="m_3">无敌浩克</p>
 							</div>
 						   </div>
 		               </div> 
